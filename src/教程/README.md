@@ -1,6 +1,6 @@
 ---
 title: 教程
-icon: graduation-cap
+icon: hugeicons:course
 date: 2022-12-04 19:59:43
 index: false
 category:

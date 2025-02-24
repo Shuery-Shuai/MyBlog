@@ -1,5 +1,5 @@
 ---
-icon: u
+icon: mdi:alphabet-u-box
 article: false
 ---
 

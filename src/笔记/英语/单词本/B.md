@@ -1,5 +1,5 @@
 ---
-icon: b
+icon: mdi:alphabet-b-box
 article: false
 ---
 

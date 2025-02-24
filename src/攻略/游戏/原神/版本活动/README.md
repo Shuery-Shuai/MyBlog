@@ -1,6 +1,6 @@
 ---
 title: 版本活动
-icon: folder
+icon: stash:version-solid
 date: 2022-10-22
 index: false
 category:

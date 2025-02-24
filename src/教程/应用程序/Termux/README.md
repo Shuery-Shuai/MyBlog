@@ -1,6 +1,6 @@
 ---
 title: Termux
-icon: terminal
+icon: arcticons:termux
 date: 2022-12-04 19:59:43
 index: false
 category:

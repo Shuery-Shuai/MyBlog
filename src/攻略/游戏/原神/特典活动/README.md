@@ -1,6 +1,6 @@
 ---
 title: 特典活动
-icon: folder
+icon: ion:sparkles
 date: 2022-10-22
 index: false
 category:

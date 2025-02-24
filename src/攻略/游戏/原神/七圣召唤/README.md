@@ -1,6 +1,6 @@
 ---
 title: 七圣召唤
-icon: folder
+icon: mdi:cards
 date: 2022-10-22
 index: false
 category:

@@ -1,5 +1,6 @@
 ---
-title: 🐧 Linux
+title: Linux
+icon: mingcute:linux-fill
 date: 2022-10-22
 index: false
 category:

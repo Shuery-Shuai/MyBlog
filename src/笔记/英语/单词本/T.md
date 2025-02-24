@@ -1,5 +1,5 @@
 ---
-icon: t
+icon: mdi:alphabet-t-box
 article: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 游戏
-icon: gamepad
+icon: token:game
 date: 2022-10-22
 index: false
 category:

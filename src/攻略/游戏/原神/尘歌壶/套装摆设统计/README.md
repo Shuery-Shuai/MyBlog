@@ -1,6 +1,6 @@
 ---
 title: 套装摆设统计
-icon: couch
+icon: fa6-solid:couch
 date: 2022-10-22
 index: false
 category:

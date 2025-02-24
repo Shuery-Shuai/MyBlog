@@ -1,7 +1,7 @@
 ---
 title: 单词本
-icon: book-open
-author: 锐毅
+icon: streamline:dictionary-language-book-solid
+author: 品毅
 date: 2022-10-22
 index: false
 category:

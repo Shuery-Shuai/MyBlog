@@ -1,6 +1,6 @@
 ---
 title: 操作系统
-icon: desktop
+icon: grommet-icons:system
 date: 2022-10-22
 index: false
 category:

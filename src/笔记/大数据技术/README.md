@@ -1,7 +1,7 @@
 ---
 title: 大数据技术
-icon: chart-simple
-author: 锐毅
+icon: fa6-solid:chart-simple
+author: 品毅
 date: 2021-10-22 21:45:48
 index: false
 category:

@@ -1,6 +1,6 @@
 ---
 title: VPS 利用脚本重装系统
-icon: pen-ruler
+icon: hugeicons:re
 description: 使用 AutoReinstall.sh 或 VPS2Arch.sh 脚本重装 VPS 系统。
 date: 2020-05-26 16:24:32
 category:

@@ -1,5 +1,5 @@
 ---
-icon: z
+icon: mdi:alphabet-z-box
 article: false
 ---
 

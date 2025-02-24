@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: home
+icon: fa:home
 title: 首页
 heroImage: /logo.svg
 heroAlt: 雪梨

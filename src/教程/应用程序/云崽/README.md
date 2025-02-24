@@ -2,7 +2,7 @@
 layout: Layout
 title: 云崽
 description: 原神 QQ 群机器人云崽。
-icon: user-secret
+icon: fluent:bot-sparkle-28-filled
 date: 2022-12-04 19:59:43
 index: false
 category:

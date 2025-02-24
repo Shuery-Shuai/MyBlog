@@ -1,6 +1,6 @@
 ---
 title: 攻略
-icon: compass
+icon: material-symbols:strategy
 date: 2022-10-22
 index: false
 category:

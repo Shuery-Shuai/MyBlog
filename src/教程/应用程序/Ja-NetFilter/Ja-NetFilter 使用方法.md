@@ -2,7 +2,7 @@
 title: Ja-NetFilter 使用方法
 shortTitle: Ja-NetFilter 使用
 description: Ja-NetFilter 过滤 Java 应用网络请求教程（仅此以 IDEA 为例）。
-icon: pen-ruler
+icon: mdi:filter-cog
 isOriginal: true
 date: 2022-11-08 08:58:46
 category:

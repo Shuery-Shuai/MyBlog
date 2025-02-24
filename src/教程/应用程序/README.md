@@ -1,6 +1,6 @@
 ---
 title: 应用程序
-icon: cubes
+icon: streamline:application-add-solid
 date: 2022-10-22
 index: false
 category:

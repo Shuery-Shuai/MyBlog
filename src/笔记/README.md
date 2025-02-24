@@ -1,7 +1,7 @@
 ---
 title: 笔记
-icon: book
-author: 锐毅
+icon: mdi:notebook
+author: 品毅
 date: 2022-10-22
 index: false
 category:

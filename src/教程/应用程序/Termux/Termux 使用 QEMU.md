@@ -1,7 +1,7 @@
 ---
 title: Termux 使用 QEMU
 description: 在 Termux 上 的 QEMU 使用教程。
-icon: pen-ruler
+icon: simple-icons:qemu
 isOriginal: false
 date: 2022-09-21 10:02:33
 category:

@@ -1,6 +1,6 @@
 ---
 title: 尘歌壶
-icon: mug-saucer
+icon: fa6-solid:mug-saucer
 date: 2022-10-22
 index: false
 category:

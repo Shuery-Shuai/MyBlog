@@ -1,7 +1,7 @@
 ---
 title: 原神
 description: 米哈游旗下游戏原神攻略。
-icon: diamond
+icon: arcticons:genshin-impact
 date: 2021-06-04 10:02:33
 index: false
 category:

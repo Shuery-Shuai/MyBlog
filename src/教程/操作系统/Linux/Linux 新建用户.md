@@ -1,6 +1,6 @@
 ---
 title: Linux 新建用户
-icon: pen-ruler
+icon: wpf:adduser
 description: Linux 系统新建用户。
 date: 2020-05-06 11:54:47
 category:
