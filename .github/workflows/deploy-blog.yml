@@ -21,7 +21,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
@@ -35,15 +35,15 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
-      - name: 设置 Node
+      - name: 安装 Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version-file: "package.json"
 
       - name: 启用 CorePack
         run: |
-          corepack enable
-          corepack prepare pnpm@latest --activate
+          npm install --global corepack@latest
+          corepack enable pnpm
 
       - name: 安装依赖
         run: |
@@ -59,7 +59,7 @@ jobs:
       - name: 上传产物
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './src/.vuepress/dist'
+          path: "./src/.vuepress/dist"
 
   deploy:
     environment:
