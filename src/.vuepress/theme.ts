@@ -30,6 +30,15 @@ export default hopeTheme({
     "唰唰记录，哐哐分享！<br />博客内容遵循 <a href='/LICENSE'>CC-BY-SA-4.0</a> 知识共享许可协议。",
   displayFooter: true,
 
+  // 打印
+  // print: true,
+
+  // 全屏
+  fullscreen: true,
+
+  // 专注模式
+  focus: true,
+
   // 博客相关
   blog: {
     description: "平凡之人不平凡",
@@ -48,7 +57,16 @@ export default hopeTheme({
 
   // 加密配置
   encrypt: {
-    config: {},
+    config: {
+      "/笔记/公务员/": {
+        password: ["159753"],
+        hint: "！！！暂未完成！！！",
+      },
+      "/笔记/英语": {
+        password: "753951",
+        hint: "！！！暂未完成！！！",
+      },
+    },
   },
 
   // 多语言配置
