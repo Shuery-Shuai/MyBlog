@@ -5,19 +5,19 @@ export default sidebar({
     "/",
     {
       text: "笔记",
-      icon: "book",
+      icon: "mdi:notebook",
       prefix: "笔记",
       children: "structure",
     },
     {
       text: "攻略",
-      icon: "compass",
+      icon: "material-symbols:strategy",
       prefix: "攻略",
       children: "structure",
     },
     {
       text: "教程",
-      icon: "graduation-cap",
+      icon: "hugeicons:course",
       prefix: "教程",
       children: "structure",
     },
