@@ -79,7 +79,7 @@ export default navbar([
         prefix: "应用程序/",
         children: [
           { text: "云崽", icon: "fluent:bot-sparkle-28-filled", link: "云崽/" },
-          { text: "Ja-Netfilter", icon: "solar:filter-bold-duotone", link: "Ja-Netfilter/" },
+          { text: "Ja-NetFilter", icon: "solar:filter-bold-duotone", link: "Ja-NetFilter/" },
           { text: "Termux", icon: "arcticons:termux", link: "Termux/" },
         ],
       },
