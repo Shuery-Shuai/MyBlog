@@ -15,6 +15,10 @@ tag:
   - Java
   - JetBrains
   - IDEA
+  - 破解
+  - Crack
+sticky: 9
+star: 9
 ---
 
 ## 前言
@@ -22,7 +26,11 @@ tag:
 这里是 Ja-NetFilter 过滤 Java 应用网络请求教程[^1]。
 
 :::caution
-此处**仅以 IDEA 为例**。
+
+- Ja-Netfilter 需在合法授权范围内使用，禁止用于非法攻击或侵犯隐私等行为。
+- 部分功能可能触发安全软件警告，需合理配置环境。
+- 此处**仅以 IDEA 为例**。
+
 :::
 
 ## 安装方式
@@ -310,5 +318,5 @@ cd ${JaNetfilter_Path}
 ## 参考资料
 
 [^1]: [README.md · ja-netfilter/ja-netfilter - Gitee.com](https://gitee.com/ja-netfilter/ja-netfilter/blob/master/README.md "Ja-Netfilter 项目官方教程。")
-[^2]: [刚出的 Idea2024.2 升级到了 JBR21，ja-net 貌似不能用了，请问能修复吗？ · Issue #IAILHH · ja-netfilter/ja-netfilter - Gitee.com](https://gitee.com/ja-netfilter/ja-netfilter/issues/IAILHH#note_30496915_link "针对中国大陆的特殊设置。")
+[^2]: [JetBrains 新版本区域选择的坑 – 知了](https://zhile.io/2024/09/05/jetbrains-2024-2-region.html "中国大陆区域特供设置参考")
 [^3]: [JETBRA.IN CHECKER | IPFS](https://3.jetbra.in/ "Jetbra 官方网站。")
