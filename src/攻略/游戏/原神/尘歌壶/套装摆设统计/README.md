@@ -1,6 +1,8 @@
 ---
-title: 套装摆设统计
+title: 尘歌壶套装摆设统计
+shortTitle: 套装摆设统计
 icon: fa6-solid:couch
+description: 原神尘歌壶套装摆设统计。
 date: 2022-10-22
 index: false
 category:
@@ -11,8 +13,17 @@ category:
 tag:
   - 攻略
   - 原神
-article: false
+article: true
+cover: /攻略/游戏/原神/尘歌壶/套装摆设统计/图片/尘歌壶-套装摆设统计.jpg
+sticky: 2
+star: 2
 ---
+
+## 简介
+
+![尘歌壶]
+
+本攻略聚焦《原神》家园系统「尘歌壶」的套装及其摆设的统计，主要提供制作套装时需的收集材料的数量计算。
 
 ## 目录
 
@@ -49,3 +60,7 @@ article: false
 
   - [后记](./后记与日志.md#后记)
   - [日志](./后记与日志.md#日志)
+
+<!-- 横幅图片 -->
+
+[尘歌壶]: ./图片/尘歌壶.png "尘歌壶"
