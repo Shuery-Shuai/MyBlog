@@ -1,7 +1,7 @@
 ---
 title: 尘歌壶套装摆设统计
 shortTitle: 套装摆设统计
-icon: fa6-solid:couch
+icon: maki:furniture
 description: 原神尘歌壶套装摆设统计。
 date: 2022-10-22
 index: false
@@ -14,7 +14,7 @@ tag:
   - 攻略
   - 原神
 article: true
-cover: /攻略/游戏/原神/尘歌壶/套装摆设统计/图片/尘歌壶-套装摆设统计.jpg
+cover: /assets/images/cover/原神-尘歌壶-套装摆设统计.jpg
 sticky: 2
 star: 2
 ---
