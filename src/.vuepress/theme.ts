@@ -74,6 +74,18 @@ export default hopeTheme({
     editLink: "编辑此页",
   },
 
+  // 文章信息展示 。
+  pageInfo: [
+    "Author",
+    "Date",
+    "Original",
+    "Category",
+    "Tag",
+    "ReadingTime",
+    "Word",
+    "PageView",
+  ],
+
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
 
