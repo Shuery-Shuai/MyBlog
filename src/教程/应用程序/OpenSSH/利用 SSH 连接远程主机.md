@@ -1,5 +1,6 @@
 ---
 title: 利用 SSH 连接远程主机即服务器
+shortTitle: 利用 SSH 连接远程主机
 icon: devicon:ssh-wordmark
 description: 使用 OpenSSH 连接服务器及重要配置修改。
 date: 2020-05-07 10:58:46
