@@ -6,7 +6,7 @@ import sidebar from "./sidebar.js";
 import { cut } from "nodejs-jieba";
 
 export default hopeTheme({
-  hostname: "https://life.shuery.lssa.fun",
+  hostname: "https://blog.shuery.lssa.fun",
 
   author: {
     name: "品毅",
