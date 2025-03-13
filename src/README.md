@@ -6,7 +6,506 @@ title: 首页
 heroImage: /logo.svg
 heroAlt: 雪梨
 heroText: 品毅的博客
-bgImage: /assets/images/background-image.jpg
+bgImage: /assets/images/background-image-tribios.png
 heroFullScreen: true
-tagline: 世界上并不缺少美，而是缺少发现美的眼睛。&ensp;<br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;——法国著名雕塑家罗丹
+tagline: '<style>
+  .tagline {
+  background-image: linear-gradient(
+  135deg,
+  rgba(135, 207, 235, 0.1) 0%,
+  rgba(255, 228, 225, 0.1) 100%
+  );
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(135, 206, 235, 0.5);
+  position: relative;
+  overflow: hidden;
+  font-family: "Microsoft YaHei", sans-serif;
+  }
+  .tagline:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: url("/assets/images/background-image-circle.svg");
+  animation: starry-rotate 60s linear infinite,
+  starry-glow 3s ease-in-out infinite;
+  transform-style: preserve-3d;
+  }
+  .tagline::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+  45deg,
+  transparent 48%,
+  rgba(255, 255, 255, 0.1) 50%,
+  transparent 52%
+  );
+  animation: meteor-shower 12s linear infinite;
+  opacity: 0.3;
+  }
+  .quote {
+  margin-right: 1.6rem;
+  text-align: left;
+  font-size: 1.6rem;
+  color: #2f3c4f;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  position: relative;
+  line-height: 1.6;
+  }
+  .blessing {
+  background: linear-gradient(45deg, #ff6b6b, #ffd93d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 1.8rem;
+  animation: shine 2s ease-in-out infinite;
+  }
+  .thinking {
+  color: #ffffff;
+  animation: blink 1.5s ease-in-out infinite;
+  }
+  .resulting {
+  background: linear-gradient(
+  135deg,
+  /* 星核金 */ #ffd700 20%,
+  /* 虚数紫 */ #9b59b6 40%,
+  /* 存护蓝 */ #3498db 60%,
+  /* 开拓红 */ #e74c3c 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 1.7rem;
+  position: relative;
+  animation: prophecy-glow 2.5s ease-in-out infinite,
+  star-trail 4s linear infinite;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  }
+  /* 星环脉冲特效 */
+  @keyframes prophecy-glow {
+  0% {
+  background-size: 100% 100%;
+  opacity: 0.9;
+  filter: hue-rotate(0deg);
+  }
+  50% {
+  background-size: 150% 150%;
+  opacity: 1;
+  filter: hue-rotate(20deg) brightness(1.2);
+  }
+  100% {
+  background-size: 100% 100%;
+  opacity: 0.9;
+  filter: hue-rotate(0deg);
+  }
+  }
+  /* 星轨流动特效 */
+  @keyframes star-trail {
+  0% {
+  background-position: 0% 50%;
+  text-shadow: 0 0 25px rgba(155, 89, 182, 0.5);
+  }
+  50% {
+  background-position: 100% 50%;
+  text-shadow: 0 0 35px rgba(52, 152, 219, 0.7);
+  }
+  100% {
+  background-position: 0% 50%;
+  text-shadow: 0 0 25px rgba(231, 76, 60, 0.5);
+  }
+  }
+  /* 添加粒子特效容器 */
+  .resulting::after {
+  content: "✦";
+  position: absolute;
+  left: 85%;
+  top: -0.2em;
+  color: #ffd700;
+  animation: sparkle 1.5s ease-out infinite, orbit 3s linear infinite;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  }
+  @keyframes sparkle {
+  0% {
+  opacity: 0;
+  transform: scale(0);
+  }
+  50% {
+  opacity: 1;
+  transform: scale(1.5);
+  }
+  100% {
+  opacity: 0;
+  transform: scale(0);
+  }
+  }
+  @keyframes orbit {
+  from {
+  transform: rotate(0deg) translateX(20px) rotate(0deg);
+  }
+  to {
+  transform: rotate(360deg) translateX(20px) rotate(-360deg);
+  }
+  }
+  .reference {
+  margin-left: 1.6rem;
+  color: #4a5568;
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: right;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  }
+  .game {
+  /* 三月七主题色：冰晶粉+星空蓝渐变 */
+  background: linear-gradient(
+  135deg,
+  #ffb6c1 20%,
+  /* 粉红 */ #87ceeb 50%,
+  /* 天蓝 */ #e0b0ff 80% /* 紫晶 */
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.2rem; /* 响应式字体 */
+  font-weight: 900;
+  text-shadow: 0 0 15px rgba(255, 182, 193, 0.3),
+  1px 1px 2px rgba(0, 0, 0, 0.2);
+  animation: march7-glow 3s ease-in-out infinite,
+  march7-float 5s ease-in-out infinite;
+  position: relative;
+  padding: 0 0.3em;
+  line-height: 1.2;
+  }
+  /* 冰晶辉光动画 */
+  @keyframes march7-glow {
+  0%,
+  100% {
+  text-shadow: 0 0 15px rgba(255, 182, 193, 0.3),
+  0 0 30px rgba(135, 206, 235, 0.2);
+  filter: brightness(1);
+  }
+  50% {
+  text-shadow: 0 0 25px rgba(255, 182, 193, 0.6),
+  0 0 50px rgba(135, 206, 235, 0.4);
+  filter: brightness(1.2);
+  }
+  }
+  /* 漂浮动画适配响应式 */
+  @keyframes march7-float {
+  0%,
+  100% {
+  transform: translateY(0);
+  }
+  30% {
+  transform: translateY(-0.3rem);
+  }
+  70% {
+  transform: translateY(0.2rem);
+  }
+  }
+  /* 雪花粒子特效 */
+  .game::before {
+  content: "❄";
+  position: absolute;
+  right: -1.2em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #87ceeb;
+  animation: snow-spin 4s linear infinite,
+  snow-opacity 2s ease-in-out infinite;
+  }
+  @keyframes snow-spin {
+  from {
+  transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+  transform: translateY(-50%) rotate(360deg);
+  }
+  }
+  @keyframes snow-opacity {
+  0%,
+  100% {
+  opacity: 0.5;
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  /* 移动端适配 */
+  @media (max-width: 768px) {
+  .game {
+  font-size: 24px; /* 保持可读性 */
+  animation-duration: 4s, 6s; /* 减缓动画速度 */
+  }
+  }
+  .tribble {
+  color: #ff3366 !important; /* 缇宝印象红 */
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-shadow: 0 0 15px rgba(255, 51, 102, 0.5),
+  0 0 30px rgba(255, 51, 102, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: inline-block;
+  animation: tribble-pulse 1.8s ease-in-out infinite,
+  tribble-float 3s ease-in-out infinite;
+  transform-origin: center bottom;
+  font-family: "Microsoft YaHei", sans-serif;
+  padding: 0 0.3em;
+  }
+  /* 核心脉冲动画 */
+  @keyframes tribble-pulse {
+  0%,
+  100% {
+  text-shadow: 0 0 15px rgba(255, 51, 102, 0.5),
+  0 0 30px rgba(255, 51, 102, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  }
+  50% {
+  text-shadow: 0 0 25px rgba(255, 51, 102, 0.8),
+  0 0 50px rgba(255, 51, 102, 0.5), 4px 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  }
+  }
+  /* 漂浮动画 */
+  @keyframes tribble-float {
+  0%,
+  100% {
+  transform: translateY(2px);
+  }
+  50% {
+  transform: translateY(5px);
+  }
+  }
+  /* 粒子皇冠特效 */
+  .tribble::before {
+  content: "⭐";
+  position: absolute;
+  top: -0.5rem;
+  left: 70%;
+  color: #ffd700;
+  font-size: 0.6em;
+  animation: crown-spin 4s linear infinite, crown-sparkle 1.5s ease infinite;
+  filter: drop-shadow(0 0 2px rgba(255, 51, 102, 0.5));
+  }
+  /* 赤羽披风特效 */
+  .tribble::after {
+  content: "";
+  position: absolute;
+  bottom: -0.1rem;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(
+  90deg,
+  transparent,
+  #ff3366 30%,
+  #ff3366 70%,
+  transparent
+  );
+  animation: cloak-wave 2s ease-in-out infinite;
+  opacity: 0.7;
+  }
+  @keyframes crown-spin {
+  from {
+  transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+  transform: translateX(-50%) rotate(360deg);
+  }
+  }
+  @keyframes crown-sparkle {
+  0%,
+  100% {
+  opacity: 0.5;
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes cloak-wave {
+  0%,
+  100% {
+  transform: scaleX(0.9);
+  filter: blur(1px);
+  }
+  50% {
+  transform: scaleX(1.1);
+  filter: blur(3px);
+  }
+  }
+  /* 手机端适配 */
+  @media (max-width: 768px) {
+  .tribble {
+  font-size: 1.2em;
+  animation-duration: 2s, 4s;
+  }
+  }
+  .tribios {
+  color: #fffaf0; /* 圣洁象牙白 */
+  font-size: 0.9em;
+  font-family: "Times New Roman", serif;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 0 10px rgba(255, 223, 0, 0.3),
+  0 0 20px rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.3);
+  animation: divine-glow 4s ease-in-out infinite,
+  sacred-float 6s ease-in-out infinite;
+  background: linear-gradient(45deg, #fff5ee 25%, #fffaf0 50%, #e6e6fa 75%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding: 0 0.2em;
+  }
+  /* 神性辉光 */
+  @keyframes divine-glow {
+  0%,
+  100% {
+  opacity: 0.95;
+  filter: brightness(1) blur(0.5px);
+  }
+  50% {
+  opacity: 1;
+  filter: brightness(1.3) blur(1.5px);
+  }
+  }
+  /* 神圣悬浮 */
+  @keyframes sacred-float {
+  0%,
+  100% {
+  transform: translateY(0);
+  }
+  25% {
+  transform: translateY(2px);
+  }
+  75% {
+  transform: translateY(5px);
+  }
+  }
+  /* 星环装饰 */
+  .tribios::before {
+  content: "✨";
+  position: absolute;
+  top: -0.8em;
+  left: 80%;
+  color: #ffd700;
+  font-size: 0.8em;
+  animation: halo-rotate 12s linear infinite, halo-pulse 3s ease infinite;
+  transform: translateX(-50%);
+  }
+  /* 星芒拖尾 */
+  .tribios::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3em;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+  90deg,
+  transparent,
+  rgba(255, 255, 255, 0.4) 30%,
+  rgba(255, 215, 0, 0.3) 70%,
+  transparent
+  );
+  animation: stardust-trail 2.4s linear infinite;
+  }
+  @keyframes halo-rotate {
+  from {
+  transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+  transform: translateX(-50%) rotate(360deg);
+  }
+  }
+  @keyframes halo-pulse {
+  0%,
+  100% {
+  opacity: 0.6;
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes stardust-trail {
+  from {
+  transform: scaleX(0);
+  opacity: 0;
+  }
+  to {
+  transform: scaleX(1);
+  opacity: 1;
+  }
+  }
+  @keyframes starry-rotate {
+  0% {
+  transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+  transform: rotate(360deg) translateZ(1px);
+  }
+  }
+  @keyframes starry-glow {
+  0%,
+  100% {
+  filter: brightness(1) blur(1px);
+  opacity: 0.9;
+  }
+  50% {
+  filter: brightness(1.5) blur(3px);
+  opacity: 0.6;
+  }
+  }
+  @keyframes meteor-shower {
+  0% {
+  transform: translate(0, 0) rotate(15deg);
+  }
+  100% {
+  transform: translate(100%, 100%) rotate(15deg);
+  }
+  }
+  @keyframes shine {
+  0% {
+  opacity: 0.8;
+  }
+  50% {
+  opacity: 1;
+  text-shadow: 0 0 20px rgba(255, 107, 107, 0.5);
+  }
+  100% {
+  opacity: 0.8;
+  }
+  }
+  @keyframes blink {
+  0%,
+  100% {
+  opacity: 1;
+  }
+  50% {
+  opacity: 0.3;
+  }
+  }
+  </style>
+  <div class="tagline">
+  <div class="quote">
+  「<span class="blessing">明天见</span
+  ><span class="thinking">……</span>是世上<span class="resulting"
+  >最伟大的预言</span
+  >。」
+  </div>
+  <div class="reference">
+  ——<span class="game">《崩坏：星穹铁道》</span><br /><span class="tribble"
+  >缇宝</span
+  ><span class="tribios">（缇里西庇俄丝）</span>
+  </div>
+  </div>'
 ---
