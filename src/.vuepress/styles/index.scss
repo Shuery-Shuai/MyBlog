@@ -495,7 +495,41 @@
 }
 
 // CantainerClass
-.serenitea-pot-container{
+// 原神
+@font-face {
+  font-family: "GenShinFont";
+  src: url("/assets/fonts/SDK_SC_Web Heavy.ttf") format("woff2");
+  font-display: swap; /* 避免布局偏移 */
+}
+
+@font-face {
+  font-family: "HanYiWenHei";
+  src: url("/assets/fonts/汉仪文黑 55S.ttf") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; /* 避免布局偏移 */
+}
+@font-face {
+  font-family: "HanYiWenHei";
+  src: url("/assets/fonts/汉仪文黑 85W.ttf") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; /* 避免布局偏移 */
+}
+.genshin-container {
+  font-family: "HanYiWenHei";
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "HanYiWenHei";
+  }
+}
+
+// 尘歌壶
+.serenitea-pot-container {
   .furnishing-image {
     max-width: 5rem;
   }
@@ -503,6 +537,6 @@
     max-width: 300px;
   }
   .companion-image {
-    max-width: 30rem; 
+    max-width: 30rem;
   }
 }

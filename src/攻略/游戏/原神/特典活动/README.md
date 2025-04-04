@@ -12,6 +12,7 @@ tag:
   - 攻略
   - 原神
 article: false
+containerClass: genshin-container
 ---
 
 特典活动。
