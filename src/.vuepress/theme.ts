@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "Shuery-Shuai/My_Blog",
+  repo: "Shuery-Shuai/MyBlog",
 
   docsDir: "src",
 
