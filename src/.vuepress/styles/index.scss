@@ -493,3 +493,16 @@
     opacity: 0.3;
   }
 }
+
+// CantainerClass
+.serenitea-pot-container{
+  .furnishing-image {
+    max-width: 5rem;
+  }
+  .furnishing-set-image {
+    max-width: 300px;
+  }
+  .companion-image {
+    max-width: 30rem; 
+  }
+}

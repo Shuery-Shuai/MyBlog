@@ -12,6 +12,7 @@ tag:
   - 攻略
   - 原神
 article: false
+containerClass: serenitea-pot-container
 ---
 
 ## 玩法简介

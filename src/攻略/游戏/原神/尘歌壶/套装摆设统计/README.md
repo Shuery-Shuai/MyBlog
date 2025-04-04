@@ -17,6 +17,7 @@ article: true
 cover: /assets/images/cover/原神-尘歌壶-套装摆设统计.jpg
 sticky: 2
 star: 2
+containerClass: serenitea-pot-container
 ---
 
 ## 简介
