@@ -1,12 +1,4 @@
 // place your custom styles here
-@use "@sass-palette/hope-config";
-
-@media (min-width: hope-config.$pc) {
-  html {
-    --content-width: calc(120rem - 40rem) !important;
-  }
-}
-
 .full-screen-title {
   display: block;
   margin: 0;
