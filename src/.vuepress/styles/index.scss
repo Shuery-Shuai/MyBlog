@@ -505,14 +505,14 @@
 @font-face {
   font-family: "HYWenHei";
   src: url("/assets/fonts/HYWenHei-55S.ttf") format("woff2");
-  font-weight: 500;
+  font-weight: normal;
   font-style: normal;
   font-display: swap; /* 避免布局偏移 */
 }
 @font-face {
   font-family: "HYWenHei";
   src: url("/assets/fonts/HYWenHei-85W.ttf") format("woff2");
-  font-weight: 900;
+  font-weight: bold;
   font-style: normal;
   font-display: swap; /* 避免布局偏移 */
 }
