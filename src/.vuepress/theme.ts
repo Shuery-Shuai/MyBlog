@@ -188,15 +188,17 @@ export default hopeTheme({
       favicon: "/favicon.ico",
       cacheHTML: true,
       cacheImage: true,
+      maxSize: 51200,
+      maxImageSize: 40960,
       appendBase: true,
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",
       },
-      msTile: {
-        image: "/assets/icon/ms-icon-144.png",
-        color: "#ffffff",
-      },
+      // msTile: {
+      //   image: "/assets/icon/ms-icon-144.png",
+      //   color: "#ffffff",
+      // },
       manifest: {
         icons: [
           {
@@ -235,6 +237,50 @@ export default hopeTheme({
                 type: "image/png",
               },
             ],
+          },
+        ],
+      },
+      generateSWConfig: {
+        // 提升缓存上限至 50MB
+        maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
+
+        // 需要缓存的文件
+        // globPatterns: [
+          // "**/*.{js,css,html,png,jpg,svg}",
+        // ],
+
+        // 不需要缓存的文件
+        globIgnores: [
+          // "**/*.map",
+          // "**/manifest*.js",
+          "assets/fonts/*.ttf",
+        ],
+
+        // 添加运行时缓存策略
+        runtimeCaching: [
+          {
+            // 精确匹配需要缓存的 6 个字体文件
+            urlPattern: new RegExp(
+              "/(assets/fonts/)?(?:" +
+                "HYWenHei-55S|" +
+                "HYWenHei-85W|" +
+                "sarasa-mono-sc-regular-nerd-font|" +
+                "sarasa-mono-sc-bold-nerd-font|" +
+                "sarasa-mono-sc-italic-nerd-font|" +
+                "sarasa-mono-sc-bolditalic-nerd-font" +
+                ")\\.ttf$"
+            ),
+            handler: "CacheFirst",
+            options: {
+              cacheName: "custom-fonts-cache",
+              expiration: {
+                maxEntries: 6, // 缓存最多 6 个文件
+                maxAgeSeconds: 60 * 60 * 24 * 30, // 30 天
+              },
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+            },
           },
         ],
       },
