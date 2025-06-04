@@ -1,3 +1,36 @@
 // you can change colors here
 // $colors: #c0392b, #d35400, #f39c12, #27ae60, #16a085, #2980b9, #8e44ad, #2c3e50,
 //   #7f8c8d !default;
+
+// Code mono fonts
+@font-face {
+  font-family: "Sarasa Mono SC Nerd";
+  src: url("/assets/fonts/sarasa-mono-sc-regular-nerd-font.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* 避免布局偏移 */
+}
+@font-face {
+  font-family: "Sarasa Mono SC Nerd";
+  src: url("/assets/fonts/sarasa-mono-sc-bold-nerd-font.ttf") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; /* 避免布局偏移 */
+}
+@font-face {
+  font-family: "Sarasa Mono SC Nerd";
+  src: url("/assets/fonts/sarasa-mono-sc-italic-nerd-font.ttf") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; /* 避免布局偏移 */
+}
+@font-face {
+  font-family: "Sarasa Mono SC Nerd";
+  src: url("/assets/fonts/sarasa-mono-sc-bolditalic-nerd-font.ttf")
+    format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; /* 避免布局偏移 */
+}
+
+$vp-font-mono: "Sarasa Mono SC Nerd";
