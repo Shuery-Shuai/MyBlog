@@ -86,6 +86,9 @@ export default hopeTheme({
     "PageView",
   ],
 
+  // 是否显示页面贡献者
+  contributors: false,
+
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
 
@@ -246,7 +249,7 @@ export default hopeTheme({
 
         // 需要缓存的文件
         // globPatterns: [
-          // "**/*.{js,css,html,png,jpg,svg}",
+        // "**/*.{js,css,html,png,jpg,svg}",
         // ],
 
         // 不需要缓存的文件
