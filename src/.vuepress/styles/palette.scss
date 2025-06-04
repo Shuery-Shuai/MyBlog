@@ -33,4 +33,4 @@
   font-display: swap; /* 避免布局偏移 */
 }
 
-$vp-font-mono: "Sarasa Mono SC Nerd";
+$vp-font-mono: "Sarasa Mono SC Nerd" 'ui-monospace, "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace' !default;;
